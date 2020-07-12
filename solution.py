@@ -3,5 +3,6 @@
 
 def checkArmstrong(num):
         # Your code goes here
+#     (153,True),(1000,False),(370,True),(371,True),(420,False),(407,True)
 
        return True
