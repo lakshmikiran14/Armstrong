@@ -4,5 +4,14 @@
 def checkArmstrong(num):
         # Your code goes here
 #     (153,True),(1000,False),(370,True),(371,True),(420,False),(407,True)
-
-       return True
+        temp = num
+        power = len(num)
+        res = 0
+        while(temp > 0):
+                temp1  = temp % 10
+                res += temp1**power 
+                temp = temp//10
+        if(num == res):
+                return True
+        else:
+                return False
