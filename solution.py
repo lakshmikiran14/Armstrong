@@ -5,7 +5,7 @@ def checkArmstrong(num):
         # Your code goes here
 #     (153,True),(1000,False),(370,True),(371,True),(420,False),(407,True)
         temp = num
-        power = len(num)
+        power = len(str(num))
         res = 0
         while(temp > 0):
                 temp1  = temp % 10
@@ -16,4 +16,4 @@ def checkArmstrong(num):
         else:
                 return False
 
-
+print(checkArmstrong(153))
